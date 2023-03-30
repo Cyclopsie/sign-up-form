@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="suf.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Left-->
+    <div class="left">
+        <!--Logo with Site title-->
+        <div class="logo">
+            <img src="/images/paw-logo.png" alt="Logo">
+        </div>
+        <div class="lim">
+            <!--image as background for Left-->
+            <img  src="/images/Only-paws.jpg" alt="Close up on Limon's Paw">
+        </div>
+    </div>
+    <!--right-->
+    <div class="right">
+        <!--head-->
+            <!--description of site-->
+           
+            <h2>Limon's Paws. The place for you to fall in love with the furry side. Sign up now to get started.</h2>
+      
+            <!--blurb to sign -->
+            <h3>Treat yourself with a Meowastic time!</h3>
+        <!--body-->
+            <!--form begins-->
+            <form>
+                <legend>It's time! Join now!</legend>
+                <!--First Line-->
+                <div>
+                    <!--First name-->
+                    <label for="first_name">FIRST NAME</label>
+                    <input type="text" id="first_name" pattern="(\\w+)">
+                    <!--last name-->
+                    <label for="last_name">LAST NAME</label>                        
+                    <input type="text" id="last_name" pattern="(\\w+)">
+                </div>
+                <!--Second Line-->
+                <div>
+                    <!--email-->
+                    <label for="user_email">EMAIL</label>
+                    <input type="email" id="user_email" name="email">
+                    <!--phone number (XXX) XXX-XXXX-->
+                    <label for="phone_number">PHONE number</label>
+                    <input type="number" id="phone_number" pattern="(.?(\\d{3}).*(\\d{3}).*(\\d{4})">
+                </div>
+                <!--third Line-->
+                <div>
+                    <!--password-->
+                    <label for="user_password">PASSWORD</label>
+                    <input type="password" id="user_password" name="password">
+                    <!--confirm password -->
+                    <label for="confirm_password">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm_password" name="confirm_password">
+                </div>
+            <!--form ends-->
+            </form>
+            <!--foot-->
+                <!--button to submit-->
+                <button type="submit">Create Account</button>
+                <!--Log in if account already made-->
+                <div id="Log-in">Already have an account? <button class="login">Log In</button></div>
+            </div>
+    
+</body>
+</html>
